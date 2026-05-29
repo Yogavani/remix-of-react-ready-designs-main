@@ -296,7 +296,6 @@ export default function App() {
                 </ul>
               </div>
               <img src={feature.img} alt={feature.title} />
-              <div className="phone-spacer">{index === 0 ? "N7" : ""}</div>
             </article>
           ))}
         </div>
